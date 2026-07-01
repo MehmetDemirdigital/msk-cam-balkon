@@ -1,0 +1,30 @@
+# MSK Cam Balkon - GitHub Push Talimatları
+# Bu dosyayı SİLEBİLİRSİNİZ. Sadece referans amaçlıdır.
+# 
+# Git kurulumundan sonra PowerShell'de sırasıyla şunları yapın:
+
+# 1. Git kurulumunu doğrula
+git --version
+
+# 2. Kimlik ayarları (ilk kez kurulduysa)
+git config --global user.name "MehmetDemirdigital"
+git config --global user.email "GITHUB_EMAIL_ADRESINIZ"
+
+# 3. Projeye git başlat
+cd C:\Projects\msk-website
+git init
+
+# 4. Remote repo bağla
+git remote add origin https://github.com/MehmetDemirdigital/msk-cam-balkon.git
+
+# 5. Tüm dosyaları sahneye al
+git add .
+
+# 6. İlk commit
+git commit -m "feat: MSK Cam Balkon web sitesi - ilk versiyon"
+
+# 7. Ana branch'i main olarak ayarla
+git branch -M main
+
+# 8. GitHub'a push et
+git push -u origin main

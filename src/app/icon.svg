@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#050505"/>
+  <!-- Outer thick gold ring -->
+  <circle cx="100" cy="100" r="92" stroke="url(#logoGoldGradient)" stroke-width="3"/>
+  <!-- Inner thin gold ring -->
+  <circle cx="100" cy="100" r="84" stroke="url(#logoGoldGradient)" stroke-width="1"/>
+  <!-- Central geometric mark -->
+  <path d="M56 70 L84 44 L100 60 L116 44 L144 70 L144 116 L100 136 L56 116 Z" fill="url(#darkAnthracite)" stroke="url(#logoGoldGradient)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Panel shading details -->
+  <path d="M84 44 L84 108 L56 88 Z" fill="#1C1C1C"/>
+  <path d="M116 44 L116 108 L144 88 Z" fill="#1C1C1C"/>
+  <path d="M100 60 L100 136 L84 108 L116 108 Z" fill="#2C2C2C"/>
+  <!-- Reflections -->
+  <line x1="66" y1="60" x2="76" y2="80" stroke="url(#logoGoldGradient)" stroke-width="1" opacity="0.4"/>
+  <line x1="134" y1="60" x2="124" y2="80" stroke="url(#logoGoldGradient)" stroke-width="1" opacity="0.4"/>
+  <defs>
+    <linearGradient id="logoGoldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7A6020"/>
+      <stop offset="30%" stop-color="#C9A84C"/>
+      <stop offset="50%" stop-color="#F5E6A3"/>
+      <stop offset="70%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#7A6020"/>
+    </linearGradient>
+    <linearGradient id="darkAnthracite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E1E"/>
+      <stop offset="100%" stop-color="#0F0F0F"/>
+    </linearGradient>
+  </defs>
+</svg>
